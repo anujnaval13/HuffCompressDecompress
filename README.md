@@ -45,8 +45,3 @@ After compiling, you can use the executables to encode and decode files.
 To compress a file, run the following command:
 ```sh
 ./encode inputFile.txt compressedFile.huf
-
-### Decoding (Decompressing a file)
-To decompress a file, run the following command:
-```sh
-./decode compressedFile.huf outputFile.txt
