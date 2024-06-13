@@ -13,8 +13,10 @@ HuffCompress is a file compression tool implemented using the Huffman coding alg
 - `encode.cpp`: Main program to encode (compress) files.
 - `decode.cpp`: Main program to decode (decompress) files.
 - `inputFile.txt`: Sample input file to be compressed.
+- `inputFile2.txt`: Sample input file to be compressed.
 - `compressedFile.huf`: Resulting compressed file.
 - `outputFile.txt`: Output file after decompression.
+- `outputFile2.txt`: Output file after decompression.
 
 ## Compilation Instructions
 To compile the project, you need to have `g++` installed on your system. The project comes with a Makefile to simplify the compilation process.
@@ -42,4 +44,9 @@ After compiling, you can use the executables to encode and decode files.
 ### Encoding (Compressing a file)
 To compress a file, run the following command:
 ```sh
-./huffcompress_encode inputFile.txt compressedFile.huf
+./encode inputFile.txt compressedFile.huf
+
+### Decoding (Decompressing a file)
+To decompress a file, run the following command:
+```sh
+./decode compressedFile.huf outputFile.txt
