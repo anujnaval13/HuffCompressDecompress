@@ -1,6 +1,6 @@
 # HuffCompressDecompress - Huffman Coding File Compressor/Decompressor
 
-HuffCompress is a file compression tool implemented using the Huffman coding algorithm in C++. This project aims to reduce file sizes efficiently by leveraging Huffman encoding and decoding techniques.
+HuffCompressDecompressor is a file compression/decompression tool implemented using the Huffman coding algorithm in C++. This project aims to reduce file sizes efficiently by leveraging Huffman encoding and decoding techniques.
 
 ## Features
 - Efficient file compression using Huffman coding.
